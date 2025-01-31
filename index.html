@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Travel App - Top 10 Places in India</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Top 10 Places in India</h1>
+
+    <!-- Destination List -->
+    <div class="destination-list" id="destination-list">
+      <!-- Destinations will be dynamically added here -->
+    </div>
+
+    <!-- Destination Details Modal -->
+    <div class="modal" id="destination-modal">
+      <div class="modal-content">
+        <span class="close-btn" onclick="closeModal()">&times;</span>
+        <h2 id="destination-name"></h2>
+        <p id="destination-description"></p>
+        <p><strong>Location:</strong> <span id="destination-location"></span></p>
+        <p><strong>Best Time to Visit:</strong> <span id="destination-time"></span></p>
+        <p><strong>Popular Attractions:</strong> <span id="destination-attractions"></span></p>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
